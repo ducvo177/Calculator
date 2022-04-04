@@ -1,0 +1,55 @@
+.app{
+    height: 1200px;
+    width: 800px;
+    border: 10px solid black;
+}
+.control{
+    display: flex;
+    flex-wrap: wrap;
+    height:800px;
+}
+#monitor{
+    height:200px;
+    width: 760px;
+    border: 20px solid gray;
+}
+.btn-plus{
+    background-color: #20b2aa;
+}
+.btn-div{
+    background-color: #ffa500;
+}
+.btn-sub{
+    background-color:  #9477af;
+}
+.btn-mul{
+     background-color: #f08080;
+}
+.btn-equal{
+    background-color:aqua
+}
+
+.btn-nut{
+    height:100px;
+    width: 100px;
+    margin:70px 50px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+.btn-icon{
+    height:100px;
+    width: 100px;
+    margin:70px 50px;
+    border-radius: 20px;
+    background-color: #ccc;
+    font-size: 40px;
+}
+.btn-icon:hover{
+    background-color: black;
+    color: #ccc;
+
+}
+#monitor-text{
+    font-size:70px;
+    text-align:right;
+}
